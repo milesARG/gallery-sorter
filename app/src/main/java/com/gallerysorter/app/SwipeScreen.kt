@@ -209,7 +209,7 @@ private fun PhotoCard(
         AsyncImage(
             model = remember(id, widthPx, heightPx) { cardRequest(context, id, widthPx, heightPx) },
             contentDescription = null,
-            contentScale = ContentScale.Fit,
+            contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize(),
         )
         if (isTop) {

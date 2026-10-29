@@ -109,7 +109,7 @@ private fun SummaryRow(
                 Text(count, fontSize = 13.sp, color = Muted)
             }
             Row(horizontalArrangement = Arrangement.spacedBy((-10).dp)) {
-                previews.reversed().forEach {
+                previews.take(1).forEach {
                     Thumb(
                         it,
                         Modifier.size(36.dp).clip(RoundedCornerShape(10.dp)).border(2.dp, Color.White, RoundedCornerShape(10.dp)),
@@ -169,7 +169,7 @@ fun TrashScreen(vm: MainViewModel) {
     Column(Modifier.fillMaxSize().systemBarsPadding()) {
         ScreenHeader(
             "Recently Deleted",
-            "Android removes these photos permanently after about 30 days.",
+            "Erased after about 30 days.",
             onBack = vm::back,
             trailing = {
                 if (items.isNotEmpty()) {
