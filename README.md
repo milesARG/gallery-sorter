@@ -10,6 +10,10 @@
   <a href="https://github.com/milesARG/gallery-sorter/releases/latest/download/GallerySorter.apk"><b>Download APK</b></a>
 </p>
 
+<p align="center">
+  <img src="assets/preview.svg" width="680" alt="Gallery Sorter screens being swiped away one by one">
+</p>
+
 ## How it works
 
 1. Choose your entire gallery or one album.
