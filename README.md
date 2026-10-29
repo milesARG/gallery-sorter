@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.png" alt="Gallery Sorter" width="240">
+  <img src="assets/logo.png" alt="Gallery Sorter" width="240">
 </p>
 
 <h1 align="center">Gallery Sorter</h1>
@@ -7,8 +7,7 @@
 <p align="center">Swipe right to keep. Swipe left to delete.<br>Clean up your Android gallery in minutes, fully offline.</p>
 
 <p align="center">
-  <a href="https://github.com/milesARG/gallery-sorter/releases/latest/download/GallerySorter.apk"><b>Download APK</b></a> ·
-  <a href="https://milesarg.github.io/gallery-sorter/">Website</a>
+  <a href="https://github.com/milesARG/gallery-sorter/releases/latest/download/GallerySorter.apk"><b>Download APK</b></a>
 </p>
 
 ## How it works
