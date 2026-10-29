@@ -11,14 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/demo.gif" alt="Swiping through photos" width="260">
-</p>
-
-<p align="center">
-  <img src="screenshots/01-home.png" alt="Home" width="190">
-  <img src="screenshots/03-swipe-right.png" alt="Swipe right to keep" width="190">
-  <img src="screenshots/05-review.png" alt="Review" width="190">
-  <img src="screenshots/07-recently-deleted.png" alt="Recently Deleted" width="190">
+  <img src="assets/preview.svg" width="680" alt="Gallery Sorter screens being swiped away one by one">
 </p>
 
 ## How it works
@@ -51,13 +44,5 @@ Requires JDK 17 and the Android SDK (API 34).
 ```
 
 The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
-
-## Screenshots
-
-The images in `screenshots/` are rendered from the real app code (activity, view model and MediaStore queries) on the JVM with Robolectric, using a fake gallery of generated landscapes. They are not captured from a phone. To regenerate the raw renders:
-
-```bash
-./gradlew :app:testDebugUnitTest -Pscreenshots --tests "*ScreenshotTest*"
-```
 
 Kotlin · Jetpack Compose · Material 3 · Coil · MediaStore
